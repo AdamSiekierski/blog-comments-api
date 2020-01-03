@@ -12,6 +12,7 @@ dotenv.config();
       process.env.MONGO_URL,
       {
         useNewUrlParser: true,
+        useUnifiedTopology: true,
       },
     ),
     CommentsModule,
